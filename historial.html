@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historial frecuencias</title>
-    <link rel="stylesheet" href="/style/historial.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Historial frecuencias</title>
+  <link rel="stylesheet" href="/style/historial.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-          <li><a href="index.html">Calculadora</a></li>
-          <li><a href="historial.html"class="activo">Historial</a></li>
-          <li><a href="informacion.html">Información</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Calculadora</a></li>
+      <li><a href="historial.html" class="activo">Historial</a></li>
+      <li><a href="informacion.html">Información</a></li>
+    </ul>
+  </nav>
+
+  <div class="contenedor">
     <h1>Historial de resultados</h1>
     <table id="tablaHistorial">
-        <thead>
-          <tr>
-            <th>Distancia (km)</th>
-            <th>Frecuencia (GHz)</th>
-            <th>Resultado</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
+      <thead>
+        <tr>
+          <th>Distancia (km)</th>
+          <th>Frecuencia (GHz)</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-        </tbody>
-      </table>
-    
-      <script src="/js/historial.js"></script>
+  <script src="/js/historial.js"></script>
 </body>
 </html>

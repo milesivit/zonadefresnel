@@ -1,56 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informacion sobre frecuencias</title>
-    <link rel="stylesheet" href="/style/informacion.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informacion sobre frecuencias</title>
+  <link rel="stylesheet" href="/style/informacion.css">
 </head>
 <body>
-    <nav class="navbar">
-        <ul>
-          <li><a href="index.html">Calculadora</a></li>
-          <li><a href="historial.html">Historial</a></li>
-          <li><a href="informacion.html" class="activo">Información</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Calculadora</a></li>
+      <li><a href="historial.html">Historial</a></li>
+      <li><a href="informacion.html" class="activo">Información</a></li>
+    </ul>
+  </nav>
+
+  <div class="contenedor">
     <main class="contenido">
-        <section>
-          <h1>Información sobre Enlaces Inalámbricos</h1>
-          
-          <h2>📡 Frecuencias comunes y sus aplicaciones</h2>
-          <p>Las señales inalámbricas se transmiten en diferentes bandas de frecuencia, cada una con características particulares:</p>
-          <ul>
-            <li><strong>2.4 GHz:</strong> Muy usada en Wi-Fi doméstico. Tiene buena penetración, pero más interferencia.</li>
-            <li><strong>5 GHz:</strong> Más rápida, pero con menor alcance. Menos interferencias.</li>
-            <li><strong>24/28 GHz:</strong> Usada en enlaces punto a punto y 5G mmWave. Alta velocidad, corto alcance.</li>
-            <li><strong>60 GHz:</strong> Alta capacidad de datos, ideal para distancias cortas sin obstáculos.</li>
-          </ul>
-      
-          <h2>🌐 ¿Qué es la Zona de Fresnel?</h2>
-          <p>Es una zona elíptica imaginaria entre dos antenas que debe mantenerse lo más libre posible de obstáculos. Su despeje es clave para evitar pérdidas de señal. Aunque no tiene que estar 100% libre, se recomienda al menos un <strong>60% de despeje</strong>.</p>
-      
-          <img src="/img/antena2.png" alt="Zona de Fresnel">
-      
-          <h2>📏 Distancia entre antenas</h2>
-          <p>La distancia entre antenas afecta el diseño del enlace:</p>
-          <ul>
-            <li><strong>Mayor distancia:</strong> Requiere más potencia y mejor visibilidad.</li>
-            <li><strong>Obstáculos en el camino:</strong> Interrumpen la zona de Fresnel y degradan la señal.</li>
-          </ul>
-          <p>Se recomienda usar la fórmula de Fresnel para calcular el radio necesario y asegurar que el terreno, edificios o árboles no obstruyan la zona crítica.</p>
-      
-          <h2>⚠️ Problemas comunes en enlaces inalámbricos</h2>
-          <ul>
-            <li><strong>Interferencias:</strong> Otras redes o dispositivos pueden afectar la señal.</li>
-            <li><strong>Mala alineación:</strong> Si las antenas no están bien orientadas, la potencia de señal cae drásticamente.</li>
-            <li><strong>Obstáculos:</strong> Árboles, edificios o incluso lluvia intensa pueden causar pérdidas.</li>
-            <li><strong>Mal cálculo de distancia o altura:</strong> Puede generar una zona de Fresnel parcialmente obstruida.</li>
-          </ul>
-      
-          <p>💡 Una buena planificación garantiza una conexión estable y eficiente.</p>
-        </section>
-      </main>
-      
+      <section>
+        <h1>Información sobre Enlaces Inalámbricos</h1>
+        
+        <h2>📡 Frecuencias comunes y sus aplicaciones</h2>
+        <p>Las señales inalámbricas se transmiten en diferentes bandas de frecuencia, cada una con características particulares:</p>
+        <ul>
+          <li><strong>2.4 GHz:</strong> Muy usada en Wi-Fi doméstico. Tiene buena penetración, pero más interferencia.</li>
+          <li><strong>5 GHz:</strong> Más rápida, pero con menor alcance. Menos interferencias.</li>
+          <li><strong>24/28 GHz:</strong> Usada en enlaces punto a punto y 5G mmWave. Alta velocidad, corto alcance.</li>
+          <li><strong>60 GHz:</strong> Alta capacidad de datos, ideal para distancias cortas sin obstáculos.</li>
+        </ul>
+    
+        <h2>🌐 ¿Qué es la Zona de Fresnel?</h2>
+        <p>Es una zona elíptica imaginaria entre dos antenas que debe mantenerse lo más libre posible de obstáculos. Su despeje es clave para evitar pérdidas de señal. Aunque no tiene que estar 100% libre, se recomienda al menos un <strong>60% de despeje</strong>.</p>
+    
+        <img src="/img/antena2.png" alt="Zona de Fresnel">
+    
+        <h2>📏 Distancia entre antenas</h2>
+        <p>La distancia entre antenas afecta el diseño del enlace:</p>
+        <ul>
+          <li><strong>Mayor distancia:</strong> Requiere más potencia y mejor visibilidad.</li>
+          <li><strong>Obstáculos en el camino:</strong> Interrumpen la zona de Fresnel y degradan la señal.</li>
+        </ul>
+        <p>Se recomienda usar la fórmula de Fresnel para calcular el radio necesario y asegurar que el terreno, edificios o árboles no obstruyan la zona crítica.</p>
+    
+        <h2>⚠️ Problemas comunes en enlaces inalámbricos</h2>
+        <ul>
+          <li><strong>Interferencias:</strong> Otras redes o dispositivos pueden afectar la señal.</li>
+          <li><strong>Mala alineación:</strong> Si las antenas no están bien orientadas, la potencia de señal cae drásticamente.</li>
+          <li><strong>Obstáculos:</strong> Árboles, edificios o incluso lluvia intensa pueden causar pérdidas.</li>
+          <li><strong>Mal cálculo de distancia o altura:</strong> Puede generar una zona de Fresnel parcialmente obstruida.</li>
+        </ul>
+    
+        <p>💡 Una buena planificación garantiza una conexión estable y eficiente.</p>
+      </section>
+    </main>
+  </div>
+
 </body>
 </html>
