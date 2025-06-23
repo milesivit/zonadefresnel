@@ -16,14 +16,11 @@ body {
   }
 
   .contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2em;
     max-width: 900px;
-    margin: 0 auto 3em auto;
-    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2em;
   }
+  
 
     /* NAVBAR */
 .navbar {
