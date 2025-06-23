@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Zona de Fresnel</title> 
+  <link rel="stylesheet" href="/style/calculadora.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="activo">Calculadora</a></li>
+      <li><a href="historial.html">Historial</a></li>
+      <li><a href="informacion.html">Información</a></li>
+    </ul>
+  </nav>
+  
+  <h1>Calculadora de Zona de Fresnel</h1>
+  <div class="contenedor">
+    <div class="formulario">
+      <label>Distancia (km): <input type="number" id="distancia" step="any"></label><br>
+      <label>Frecuencia (GHz): <input type="number" id="frecuencia" step="any"></label><br>
+      <button onclick="calcularFresnel()">Calcular</button>
+      <div class="resultado" id="resultado"></div>
+    </div>
+  
+    <div class="imagen">
+      <h3>Fórmula utilizada</h3>
+      <img src="/img/formula.png" alt="Fórmula Fresnel">
+    </div>
+  </div>
+
+  <div class="tituloTabla">
+    <h2>Detalle sobre frecuencias</h2>
+  </div>
+
+  <table id="tablaFrecuencias">
+    <thead>
+      <tr>
+        <th>Frecuencia (GHz)</th>
+        <th>Aplicacion principal</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td>0.9</td>
+          <td>Redes GSM antiguas, RFID, radioaficionados</td>
+        </tr>
+        <tr>
+          <td>1.8</td>
+          <td>GSM(2G), algunas bandas de 4G</td>
+        </tr>
+        <tr>
+          <td>2.4</td>
+          <td>Wi-Fi(802.11b/g/n)</td>
+        </tr>
+        <tr>
+          <td>3.5</td>
+          <td>Bandas de 5G (NSA/SA), WiMAX</td>
+        </tr>
+        <tr>
+          <td>5.0</td>
+          <td>Wi-Fi (802.11a/n/ac/ax), menos interferencia</td>
+        </tr>
+        <tr>
+          <td>5.8</td>
+          <td>Wi-Fi extendido</td>
+        </tr>
+        <tr>
+          <td>6.0</td>
+          <td>Wi-Fi 6E (nueva banda con menos congestión)</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>5G mmWave (alta velocidad, corto alcance)</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>Enlaces de microondas punto a punto, 5G mmWave</td>
+        </tr>
+        <tr>
+          <td>60</td>
+          <td>WiGig (Wi-Fi 802.11ad), redes de alta velocidad</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <script src="/js/calculadora.js"></script>
+  
+ 
+</body>
+</html>
