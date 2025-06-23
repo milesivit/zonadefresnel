@@ -76,3 +76,42 @@ body {
     background-color: #e6f2ff;
     color: #003366;
   }
+
+  .tabla-responsive {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      padding: 1em;
+    }
+  
+    .contenedor {
+      padding: 1em;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
+    }
+  
+    .navbar a {
+      width: 90%;
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 1.4em;
+    }
+  
+    table {
+      width: 100%;
+      font-size: 0.9em;
+    }
+  
+    th, td {
+      padding: 0.5em;
+    }
+  }
+  
